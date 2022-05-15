@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/public/output.css" rel="stylesheet">
+
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--End of Navigation Bar-->
+  <header>
+     <nav
+        class="
+          flex flex-wrap
+          items-center
+          justify-between
+          w-full
+          py-4
+          md:py-0
+          px-4
+          text-lg text-gray-700
+          bg-hero
+        "
+      >
+      <div>
+        <img src="/src/images/logo.svg" alt="">
+      </div>
+
+      <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="menu-button"
+      class="h-6 w-6 cursor-pointer md:hidden block"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M4 6h16M4 12h16M4 18h16"
+      />
+    </svg>
+       
+       <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+          <ul
+            class="
+              pt-4
+              text-base text-gray-700
+              md:flex
+              md:justify-between 
+              md:pt-0"
+          >
+            <li>
+              <a class="md:px-8 md:py-6 py-2 block text-white text-lg font-semibold" href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a class="md:px-8 md:py-6 py-2 block text-white text-lg font-semibold" href="#"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a class="md:px-8 md:py-6 py-2 block text-white text-lg font-semibold" href="#"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a
+                class="md:py-2 md:px-4 py-2 my-4 mx-8 font-bold font-Fraunces block md:bg-white bg-yellow-400 text-center  text-black border-2 rounded-full md:hover:bg-sky-300 hover:text-white hover:border-0"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </header>
+  
+  <!--End of Navigation Bar-->
+
+  <!--Hero Section-->
+  <div class="min-h-screen  w-full h-full  bg-center bg-cover" style="background-image: url(/src/images/desktop/image-header.jpg);">
+    <h1 class="text-white text-5xl text-center font-bold pt-24 font-Fraunces tracking-widest uppercase">We are creatives</h1>
+    <img src="/src/images/icon-arrow-down.svg" alt="" class="flex mx-auto pt-28">
+  </div>
+    <!--End of Hero Section-->
+
+    <!--Second Section-->
+    <!--main container-->
+    <div>
+      <!--First Sub-Container-->
+      <div class="flex md:flex-row justify-between flex-col-reverse">
+        <div class="md:px-28 md:py-36">
+          <h1 class="md:text-5xl text-4xl md:pt-0 pt-12 font-bold font-Fraunces md:text-left text-center">Transform your brand</h1>
+          <p class="py-10 text-gray-500 md:text-left text-center md:px-0 px-4 font-semibold font-Barlow">We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <button class="flex mx-auto md:mx-0 md:mb-0 mb-14 text-3xl font-semibold underline decoration-8 decoration-yellow-200 hover:decoration-yellow-300 underline-offset-3 ">Learn more</button>
+        </div>
+        <!--image-->
+          <img src="/src/images/desktop/image-transform.jpg" alt="" class="md:w-6/12">
+      </div>
+      <!--End First Sub-Container-->
+      <!--Second Sub-Container-->
+      <div class="flex md:flex-row justify-between flex-col">
+        <!--image-->
+        <img src="/src/images/desktop/image-stand-out.jpg" alt="" class="md:w-6/12">
+        <!--text-->
+        <div class="md:px-28 md:py-36">
+          <h1 class="md:text-5xl text-4xl md:pt-0 pt-12  md:px-0 px-4 font-bold font-Fraunces md:text-left text-center">Stand out to the right audience</h1>
+          <p class="py-10 text-gray-500 md:text-left text-center md:px-0 px-4 font-semibold font-Barlow">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+            <button class="flex mx-auto md:mx-0 md:mb-0 mb-14 text-3xl font-semibold underline decoration-8 decoration-pink-200 hover:decoration-pink-300 underline-offset-3 ">Learn more</button>
+        </div>
+        
+      </div>
+        <!--End Second Sub-Container-->
+      <!--third Container-->
+      <div class="grid md:grid-cols-2 grid-cols-1 font-Fraunces -mt-3">
+        <div class="min-h-screen w-full h-full  bg-center bg-cover" style="background-image: url(/src/images/desktop/image-graphic-design.jpg);"">
+         <div class="text-center md:pr-44 md:pl-16 md:pt-96 pt-96 bottom-0">
+          <h1 class="text-3xl md:pb-6 md:pt-10 md:pr-8 pt-14 text-center font-Fraunces text-teal-900">Graphic Design</h1>
+          <p class="text-teal-700 md:px-0 md:py-0 py-6 px-6 text-lg font-extrabold font-Barlow">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+         </div>
+        </div>
+        <div class="min-h-screen  w-full h-full  bg-center bg-cover" style="background-image: url(/src/images/desktop/image-photography.jpg);">
+          <div class="text-center md:pr-44 md:pl-16 md:pt-96 pt-96 bottom-0">
+          <h1 class="text-3xl md:pb-6 md:pt-10 md:pr-8 pt-14 text-center font-Fraunces text-sky-900">Photography</h1>
+          <p class="text-sky-700 md:px-0 md:py-0 py-6 px-6 text-lg font-extrabold font-Barlow">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+        </div>
+      </div>
+       <!-- End third Container-->
+    </div>
+    <!--End of Second Section-->
+
+    <!--Testimonials-->
+    <h1 class=" md:mt-20 md:mb-16 text-gray-400 text-center tracking-wider uppercase md:text-3xl text-2xl mt-7 mb-7 font-Fraunces">Client Testimonials</h1>
+    <div class="grid md:grid-cols-3 md:gap-16 grid-cols-1 md:mx-20 md:mb-24 mb-7">
+  <!--First Testimonial-->
+  <div class="text-center mb-10">
+    <img src="/src/images/image-emily.jpg" alt="" class="rounded-full flex mx-auto">
+    <p class="pt-10 px-10 font-Barlow text-gray-500">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+    <h4 class="pt-14 font-bold font-Fraunces"> Emily R.</h4>
+    <h6 class="font-Barlow text-gray-400">Marketing Director</h6>
+  </div>
+  <!--End First Testimonial-->
+  <!--Second Testimonial-->
+  <div class="text-center mb-10">
+    <img src="/src/images/image-thomas.jpg" alt="" class="rounded-full flex mx-auto">
+    <p class="pt-10 px-10 font-Barlow text-gray-500">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+    <h4 class="pt-14 font-bold font-Fraunces"> Thomas S.</h4>
+    <h6 class="font-Barlow text-gray-400">Chief Operating Officer</h6>
+  </div>
+  <!--End Second Testimonial-->
+  <!--Third Testimonial-->
+  <div class="text-center">
+    <img src="/src/images/image-jennie.jpg" alt="" class="rounded-full flex mx-auto">
+    <p class="pt-10 px-10 font-Barlow text-gray-500">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+    <h4 class="pt-14 font-bold font-Fraunces">Jennie F.</h4>
+    <h6 class="font-Barlow text-gray-400">Business Owner</h6>
+  </div>
+  <!--End Third Testimonial-->
+    </div>
+    <!--End Testimonials-->
+
+    <!--Image grid-->
+    <div class="grid md:grid-cols-4 grid-cols-2">
+      <img src="/src/images/desktop/image-gallery-milkbottles.jpg" alt="">
+      <img src="/src/images/desktop/image-gallery-orange.jpg" alt="">
+      <img src="/src/images/desktop/image-gallery-cone.jpg" alt="">
+      <img src="/src/images/desktop/image-gallery-sugarcubes.jpg" alt="">
+    </div>
+    <!--End Image grid-->
+
+    <!--footer-->
+    <div class="bg-footer">
+  <h1 class="text-center lowercase pt-8 text-footerText font-bold text-3xl">Sunnyside</h1>
+  <ul class="flex flex-row items-center justify-center md:px-8 py-9">
+    <li><a href="#" class="px-8 font-bold text-footerText hover:text-white">About</a></li>
+    <li><a href="#" class="px-8 font-bold text-footerText hover:text-white">Services</a></li>
+    <li><a href="#" class="px-8 font-bold text-footerText hover:text-white">Projects</a></li>
+  </ul>
+  <div class="flex flex-row items-center justify-center md:px-8  md:py-6 py-12">
+   <i class="fa fa-facebook px-3   text-footerText cursor-pointer hover:text-white"></i>
+   <i class="fa fa-instagram px-3  text-footerText cursor-pointer hover:text-white"></i>
+   <i class="fa fa-twitter px-3  text-footerText cursor-pointer hover:text-white"></i>
+   <i class="fa fa-pinterest px-3  text-footerText cursor-pointer hover:text-white"></i>
+  </div>
+    </div>
+
+    
+    <!--second-->
+    <script src="script.js"></script>
+</body>
+</html>
